@@ -14,7 +14,7 @@ var queryType = new GraphQLObjectType({
     hey: {
       type: GraphQLString,
       resolve: function(_, args){
-        return "hello world"
+        return "hello"
       }
     }
   })
